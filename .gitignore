@@ -23,6 +23,3 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 extensions.json
-
-# Large audio — remove this line (or use `git add -f`) when ready to track
-/static/selected-ambient-works-85-92-flac/
