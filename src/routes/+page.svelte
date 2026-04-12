@@ -64,7 +64,8 @@
         <p class="text-justify font-helvetica text-2xl leading-[100%] text-[#23231F] md:text-3xl">
           pulsewidth is a 6-week-long ysws where you turn weird non-musical data into music! it could be anything
           from <a href="https://yubidnb.vercel.app" target="_blank" rel="noopener noreferrer">yubikey otps to drum & bass music</a> to
-          <a href="https://raphaelbastide.com/cascade/" target="_blank" rel="noopener noreferrer">css styling to a livecoded song</a>!
+          <a href="https://raphaelbastide.com/cascade/" target="_blank" rel="noopener noreferrer">css styling to a livecoded song</a> 
+          to turning someone's tweet into music to turning barcodes to a song and so so many more ideas!
         </p>
       </section>
 
@@ -75,7 +76,7 @@
             <span class="shrink-0 font-helvetica text-4xl font-bold leading-[100%] text-[#23231F] sm:text-5xl md:text-6xl">1</span>
             <a href="/" class="min-w-0 flex-1 border-2 border-[#23231F] px-4 py-4 text-[#23231F] no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35 md:px-5 md:py-5" aria-label="inspo">
               <h3 class="mb-3 font-helvetica text-2xl font-bold leading-[100%] md:text-3xl">inspo</h3>
-              <p class="text-justify font-helvetica text-lg leading-[100%] md:text-xl">not sure what to build? check out this page!</p>
+              <p class="text-justify font-helvetica text-lg leading-[100%] md:text-xl">not sure what to build? check out this page with a bunch of inspo!</p>
             </a>
           </div>
           <div class="flex items-start gap-3 sm:gap-5 md:gap-6">
