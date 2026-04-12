@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Helvetica;
+  src: url("./lib/fonts/Helvetica-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url("./lib/fonts/Helvetica-BoldOblique.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@theme {
+  --font-helvetica: Helvetica, Arial, sans-serif;
+  --spacing-100: 25rem;
+}
+
+@layer base {
+  html,
+  body {
+    min-height: 100%;
+    background-color: #faf3d9;
+  }
+
+  a {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 0.09em;
+    text-decoration-color: currentColor;
+  }
+}
+
+@layer components {
+  .faq-wavy-divider > details:not(:first-child)::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.875rem;
+    margin-bottom: 1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='14' viewBox='0 0 36 14' fill='none'%3E%3Cpath d='M0 7 Q3 1 6 7 Q9 13 12 7 Q15 1 18 7 Q21 13 24 7 Q27 1 30 7 Q33 13 36 7' stroke='%2323231F' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 36px 14px;
+  }
+}
