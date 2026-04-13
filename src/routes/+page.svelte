@@ -123,10 +123,23 @@
             <p class="mt-3 font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">six weeks. from xx to xx- enough time for you to go from an idea to a shipped project &lt;3.</p>
           </details>
           <details class="py-4">
+            <summary class="cursor-pointer list-none font-helvetica text-xl font-bold leading-[100%] text-[#23231F] marker:content-none md:text-2xl [&::-webkit-details-marker]:hidden">is this legit?</summary>
+            <p class="mt-3 font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">
+              yes! <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer">hack club</a> is a 501(c)(3) nonprofit and network of 100k+ technical high schoolers. in the past few years, we've partnered 
+              with <a href="https://github.com" target="_blank" rel="noopener noreferrer">github</a> to run summer of making, hosted the world's longest hackathon on land, and ran canada's largest high school hackathon.
+            </p>
+          </details>
+          <details class="py-4">
             <summary class="cursor-pointer list-none font-helvetica text-xl font-bold leading-[100%] text-[#23231F] marker:content-none md:text-2xl [&::-webkit-details-marker]:hidden">who is it for?</summary>
             <p class="mt-3 font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">
-              anyone between 13 and 18 years old into experimental art and music, the indie music scene, or reverse-engineering and jailbreakingtech
+              anyone 13-18 years old into experimental art and music, the indie music scene, or reverse-engineering and jailbreakingtech
               to make something cool! beginners are absolutely welcome and i’ll help you get unstuck.
+            </p>
+            <p class="mt-3 font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">
+              19 or older? you can’t participate as a teen in this ysws, but you can refer people to the program !! check out the
+              <span class="inline border-0 bg-transparent p-0 font-inherit text-[#23231F] underline decoration-wavy underline-offset-[0.09em] cursor-pointer">
+                referral program
+              </span>.
             </p>
           </details>
           <details class="py-4">
@@ -160,9 +173,11 @@
         <p class="mb-8 text-justify font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">(every tier includes a sticker sheet)</p>
         <ul class="m-0 flex list-none flex-col gap-8 p-0">
           <li class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
-            <button type="button" class="relative mx-auto h-52 w-[min(100%,14rem)] shrink-0 cursor-pointer border-0 bg-transparent p-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35 sm:mx-0 sm:w-[min(100%,10.5rem)] sm:translate-x-3 md:h-48 md:w-[min(100%,11.5rem)]" onclick={onStackClick}>
+            <button type="button" class="relative mx-auto h-52 w-[min(100%,14rem)] shrink-0 cursor-pointer border-0 bg-transparent p-0 focus-visible:outline-none focus-visible:ring-2
+             focus-visible:ring-[#23231F]/35 sm:mx-0 sm:w-[min(100%,10.5rem)] sm:translate-x-3 md:h-48 md:w-[min(100%,11.5rem)]" onclick={onStackClick}>
               {#each [0, 1, 2] as i (i)}
-                <img src={tier1PosterUrls[i]} alt="" data-poster-index={i} class="absolute left-0 top-0 max-h-44 w-auto max-w-32 select-none object-contain shadow-md ring-2 ring-[#FAF3D9] md:max-h-48 md:max-w-36" style:z-index={zFor(i)} style:transform={posterTransforms[i]} draggable="false" />
+                <img src={tier1PosterUrls[i]} alt="" data-poster-index={i} class="absolute left-0 top-0 max-h-44 w-auto max-w-32 select-none object-contain shadow-md ring-2 ring-[#FAF3D9] 
+                md:max-h-48 md:max-w-36" style:z-index={zFor(i)} style:transform={posterTransforms[i]} draggable="false" />
               {/each}
             </button>
             <div class="min-w-0 flex-1 basis-0 text-left sm:pl-4 md:pl-6">
@@ -198,7 +213,8 @@
             </div>
             <div class="relative mx-auto h-44 min-h-0 w-[min(100%,12rem)] min-w-0 max-w-full justify-self-end overflow-x-clip overflow-y-visible sm:col-span-2 sm:mx-0 sm:h-40 sm:w-full sm:justify-self-stretch md:h-44">
               {#each [0, 1, 2] as i (i)}
-                <img src={tier4TicketUrls[i]} alt="" class="pointer-events-none absolute left-0 top-0 h-auto max-h-32 w-full max-w-full select-none object-contain object-left shadow-md ring-2 ring-[#FAF3D9] sm:max-h-28 md:max-h-32" style:z-index={30 - i * 10} style:transform={tier4TicketTransforms[i]} style:transform-origin="center center" draggable="false" />
+                <img src={tier4TicketUrls[i]} alt="" class="pointer-events-none absolute left-0 top-0 h-auto max-h-32 w-full max-w-full select-none object-contain object-left shadow-md ring-2 ring-[#FAF3D9] sm:max-h-28 md:max-h-32" 
+                style:z-index={30 - i * 10} style:transform={tier4TicketTransforms[i]} style:transform-origin="center center" draggable="false" />
               {/each}
             </div>
           </li>
@@ -217,4 +233,12 @@
       </section>
     </div>
   </main>
+
+  <footer class="border-t-2 border-[#23231F] bg-[#FAF3D9] px-5 py-8 md:px-10">
+    <p class="mx-auto max-w-6xl text-center font-helvetica text-base leading-[140%] text-[#23231F] md:text-lg">
+      made with &lt; 3 and :3 by @<a href="https://github.com/v1peridae" target="_blank" rel="noopener noreferrer" class="text-[#23231F]">v1peridae</a>
+      , brought to you by <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="text-[#23231F]">hack club</a> and <a href="https://teenage.engineering/" 
+      target="_blank" rel="noopener noreferrer" class="text-[#23231F]">teenage.engineering</a>.
+    </p>
+  </footer>
 </div>
