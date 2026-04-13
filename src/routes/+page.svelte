@@ -47,15 +47,26 @@
   </header>
 
   <section class="mx-auto w-full max-w-7xl px-5 pb-10 pt-2 md:px-25 md:pb-12 md:pt-4">
-    <h1 class="text-balance text-5xl font-helvetica font-bold leading-[100%] tracking-tight text-[#23231F]">
-      <i>you ship</i> a project that turns the weirdest, most obscure input/data into music,
+    <h1 class="text-balance text-5xl font-helvetica font-bold leading-[110%] tracking-tight text-[#23231F]">
+      <i>you ship</i> a project that turns the weirdest, most obscure <span class=" bg-[#23231F] px-1.5 py-0 text-[#FAF3D9]">input/data</span> into <span class=" bg-[#23231F] px-1.5 py-0.5 text-[#FAF3D9]">music</span>,
     </h1>
 
-    <h1 class="text-balance mt-5 text-5xl font-helvetica font-bold leading-[100%] tracking-tight text-[#23231F]">
-      <i>we ship</i> you your fave artist's posters, merch, tickets and more prizes worth over $300.
+    <h1 class="text-balance mt-5 text-5xl font-helvetica font-bold leading-[110%] tracking-tight text-[#23231F]">
+      <i>we ship</i> you your fave artist's posters, merch, tickets and more prizes worth over <span class=" bg-[#23231F] px-1.5 py-0.5 text-[#FAF3D9]">$300</span>.
     </h1>
 
-    <button class="mt-6 border-2 border-[#23231F] p-2 font-helvetica text-2xl font-bold leading-[100%] text-[#23231F] md:text-3xl">get started</button>
+    <div class="mt-6 flex flex-wrap items-center gap-4">
+      <a
+        href="#how-to-get-started"
+        class="inline-flex border-2 border-[#23231F] bg-[#FAF3D9] p-2 font-helvetica text-2xl font-bold leading-[100%] text-[#23231F] no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35 md:text-3xl"
+        >get started</a>
+      <button
+        type="button"
+        class="border-2 border-[#23231F] bg-[#FAF3D9] p-2 font-helvetica text-2xl font-bold leading-[100%] text-[#23231F]  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35 md:text-3xl"
+      >
+        submit
+      </button>
+    </div>
   </section>
 
   <main class="mx-auto grid min-w-0 w-full max-w-6xl flex-1 grid-cols-1 gap-10 overflow-x-clip px-5 pb-16 pt-2 md:grid-cols-2 md:gap-12 md:px-10 md:pt-4 md:items-start">
@@ -69,9 +80,17 @@
         </p>
       </section>
 
-      <section class="mt-14">
+      <section class="mt-14 scroll-mt-6" id="how-to-get-started">
         <h2 class="mb-6 font-helvetica text-4xl font-bold leading-[100%] text-[#23231F]">how to get started</h2>
         <div class="flex flex-col gap-4">
+          <div class="flex items-start gap-3 sm:gap-5 md:gap-6">
+            <span class="shrink-0 font-helvetica text-4xl font-bold leading-[100%] text-[#23231F] sm:text-5xl md:text-6xl">0</span>
+            <div class="min-w-0 flex-1 border-2 border-[#23231F] px-4 py-4 text-[#23231F] md:px-5 md:py-5">
+              <h3 class="mb-3 font-helvetica text-2xl font-bold leading-[100%] md:text-3xl">before you build</h3>
+              <p class="text-justify font-helvetica text-lg leading-[100%] md:text-xl">
+                read this section about progress tracking and setting up before you start coding.</p>
+            </div>
+          </div>
           <div class="flex items-start gap-3 sm:gap-5 md:gap-6">
             <span class="shrink-0 font-helvetica text-4xl font-bold leading-[100%] text-[#23231F] sm:text-5xl md:text-6xl">1</span>
             <a href="/" class="min-w-0 flex-1 border-2 border-[#23231F] px-4 py-4 text-[#23231F] no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35 md:px-5 md:py-5" aria-label="inspo">
@@ -114,11 +133,11 @@
             <summary class="cursor-pointer list-none font-helvetica text-xl font-bold leading-[100%] text-[#23231F] marker:content-none md:text-2xl [&::-webkit-details-marker]:hidden">how do i track progress?</summary>
             <p class="mt-3 font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">
               when i'm reviewing your pulsewidth projects, i want to understand how you made your project. you'll be using <a href="https://hackatime.hackclub.com" target="_blank" rel="noopener noreferrer">hackatime</a> for time tracking
-              and keep <span class="font-bold underline decoration-wavy underline-offset-[0.09em]">journal entries</span> to document what you tried and what you learned.
+              and keep <span class="font-bold underline decoration-wavy underline-offset-[0.09em]">journal entries</span> to document what you tried, added and removed, and learned.
             </p>
           </details>
           <details class="py-4">
-            <summary class="cursor-pointer list-none font-helvetica text-xl font-bold leading-[100%] text-[#23231F] marker:content-none md:text-2xl [&::-webkit-details-marker]:hidden">where is the community?</summary>
+            <summary class="cursor-pointer list-none font-helvetica text-xl font-bold leading-[100%] text-[#23231F] marker:content-none md:text-2xl [&::-webkit-details-marker]:hidden">where are others teens working on their projects?</summary>
             <p class="mt-3 font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">
               this is a hack club ysws and you can find other teens working on their pulsewidth projects
               in the #pulsewidth channel on the hack club slack!
@@ -137,7 +156,8 @@
     <div class="flex min-w-0 flex-col overflow-x-clip px-1 md:px-0">
       <section>
         <h2 class="mb-2 text-justify font-helvetica text-4xl font-bold leading-[100%] text-[#23231F]">prizes</h2>
-        <p class="mb-8 text-justify font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">ship a super cool project, show us how you did it and claim cool prizes!</p>
+        <p class="mb-4 text-justify font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">ship a super cool project, show us how you did it and claim cool prizes!</p>
+        <p class="mb-8 text-justify font-helvetica text-lg leading-[100%] text-[#23231F] md:text-xl">(every tier includes a sticker sheet)</p>
         <ul class="m-0 flex list-none flex-col gap-8 p-0">
           <li class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
             <button type="button" class="relative mx-auto h-52 w-[min(100%,14rem)] shrink-0 cursor-pointer border-0 bg-transparent p-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35 sm:mx-0 sm:w-[min(100%,10.5rem)] sm:translate-x-3 md:h-48 md:w-[min(100%,11.5rem)]" onclick={onStackClick}>
@@ -147,24 +167,26 @@
             </button>
             <div class="min-w-0 flex-1 basis-0 text-left sm:pl-4 md:pl-6">
               <p class="font-helvetica text-2xl font-bold leading-[100%] tracking-tight text-[#23231F] md:text-3xl">tier 1 (4-7 hours)</p>
-              <p class="mt-2 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">sticker sheet + poster of an artist or band of your choice.</p>
+              <p class="mt-2 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">poster of an artist or band of your choice.</p>
             </div>
           </li>
 
           <li class="grid min-w-0 w-full max-w-full grid-cols-1 gap-3 sm:grid-cols-5 sm:items-start sm:gap-3">
             <div class="min-w-0 text-left sm:col-span-3 sm:pr-0">
               <p class="font-helvetica text-2xl font-bold leading-[100%] tracking-tight text-[#23231F] md:text-3xl">tier 2 (8-11 hours)</p>
-              <p class="mt-2 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">cassette of a song of your choice + cassette player + sticker sheet.</p>
+              <p class="mt-2 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">cassette of a song of your choice + cassette player.</p>
             </div>
             <img src="/cassettes.png" alt="" class="mx-auto h-auto w-full max-w-[min(100%,14rem)] min-w-0 object-contain sm:col-span-2 sm:mx-0 sm:max-w-none sm:w-full sm:justify-self-end -rotate-2" />
           </li>
 
           <li class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
-            <img src="/po12.png" alt="" class="h-auto w-full max-w-[min(100%,11rem)] shrink-0 self-start object-contain sm:max-w-30 md:max-w-30 -rotate-3" />
+            <a href="https://teenage.engineering/store/po-12" target="_blank" rel="noopener noreferrer" class="inline-flex shrink-0 self-start no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35">
+              <img src="/po12.png" alt="" class="pointer-events-none h-auto w-full max-w-[min(100%,11rem)] object-contain sm:max-w-30 md:max-w-30 -rotate-3" />
+            </a>
             <div class="min-w-0 flex-1 basis-0 text-left sm:pl-4">
               <p class="font-helvetica text-2xl font-bold leading-[100%] tracking-tight text-[#23231F] md:text-3xl">tier 3 (12-19 hours)</p>
               <p class="mt-2 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">
-                sticker sheet + a pocket operator 12 made by teenage engineering! it's a mini synth that you can use to make music.
+                a pocket operator 12 made by teenage engineering! it's a mini synth that you can use to make music.
               </p>
             </div>
           </li>
@@ -172,7 +194,7 @@
           <li class="grid min-w-0 w-full max-w-full grid-cols-1 gap-3 sm:grid-cols-5 sm:items-start sm:gap-3">
             <div class="min-w-0 text-left sm:col-span-3 sm:pr-0">
               <p class="font-helvetica text-2xl font-bold leading-[100%] tracking-tight text-[#23231F] md:text-3xl">tier 4 (20+ hours)</p>
-              <p class="mt-2 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">sticker sheet + concert tickets and/or merch for an artist or band of your choice.</p>
+              <p class="mt-2 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">concert tickets and/or merch for an artist or band of your choice.</p>
             </div>
             <div class="relative mx-auto h-44 min-h-0 w-[min(100%,12rem)] min-w-0 max-w-full justify-self-end overflow-x-clip overflow-y-visible sm:col-span-2 sm:mx-0 sm:h-40 sm:w-full sm:justify-self-stretch md:h-44">
               {#each [0, 1, 2] as i (i)}
@@ -187,7 +209,9 @@
           <p class="mt-3 font-helvetica text-xl leading-[100%] text-[#23231F] md:text-2xl">
             our friends at teenage engineering have offered the best project (from peer voting) one of their high end <strong>synthesizers</strong>
           </p>
-          <img src="/synth.png" alt="" class="mt-6 mx-auto h-auto w-[60%] object-contain" />
+          <a href="https://teenage.engineering/store/ep-40" target="_blank" rel="noopener noreferrer" class="mt-6 mx-auto block w-[60%] max-w-full no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#23231F]/35">
+            <img src="/synth.png" alt="" class="pointer-events-none h-auto w-full object-contain" />
+          </a>
           <p class="mt-3 text-center font-helvetica text-base leading-[100%] text-[#23231F]/85">this is the EP-40 riddim, it's worth over $330!</p>
         </div>
       </section>
