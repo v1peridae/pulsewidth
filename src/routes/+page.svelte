@@ -73,10 +73,10 @@
     <div class="flex min-w-0 flex-col px-1 md:px-0">
       <section>
         <p class="text-justify font-helvetica text-2xl leading-[100%] text-[#23231F] md:text-3xl">
-          pulsewidth is a 6-week-long ysws where you turn weird non-musical data into music! it could be anything
+          pulsewidth is a 6-week-long ysws where you turn weird non-musical data into music! <br><br> you can make anything
           from <a href="https://yubidnb.vercel.app" target="_blank" rel="noopener noreferrer">yubikey otps to drum & bass music</a> to
-          <a href="https://raphaelbastide.com/cascade/" target="_blank" rel="noopener noreferrer">css styling to a livecoded song</a> 
-          to turning someone's tweet into music to turning barcodes to a song and so so many more ideas!
+          <a href="https://raphaelbastide.com/cascade/" target="_blank" rel="noopener noreferrer">css styling to a livecoded song</a>
+          to turning someone's tweet into music to turning barcodes to a song and so so many more ideas!<br><br> it could be a website, hardware, something in your cli or anything you can think of!
         </p>
       </section>
 
