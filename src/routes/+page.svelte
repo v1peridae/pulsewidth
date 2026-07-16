@@ -38,7 +38,7 @@
       <h1 class="font-helvetica text-6xl text-right font-bold italic leading-[90%] tracking-tight text-[#8A84EC] sm:text-7xl md:text-[7rem]">pulsewidth</h1>
       <p class="mt-4 font-bold italic text-right font-helvetica text-2xl leading-[110%] text-[#8F8DC5] md:text-3xl">20 july - 2 aug</p>
       <p class="mt-1 font-bold italic text-right font-helvetica text-lg leading-[110%] text-[#8F8DC5] md:text-xl">
-        a <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="text-[#8F8DC5] no-underline hover:underline">hack club</a> ysws
+        a <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="text-[#8F8DC5] no-underline hover:underline">hack club</a> program
         </p>
     </div>
   </header>
@@ -47,11 +47,11 @@
     <span aria-hidden="true" class="pointer-events-none absolute right-2 top-0 hidden select-none font-helvetica text-[9rem] font-bold leading-none text-[#C8CD11] md:block">*</span>
     <span aria-hidden="true" class="pointer-events-none absolute left-4 bottom-16 hidden select-none font-helvetica text-8xl font-bold leading-none text-[#C8CD11] md:block">+</span>
     <p class="text-balance text-5xl font-helvetica font-bold leading-[110%] tracking-tight text-[#6C8CE8]">
-      <i>you ship</i> a project that turns the weirdest, most obscure <span class=" bg-[#C8CD11] px-1.5 py-0 text-[#EFEDFA]">input/data</span> into <span class=" bg-[#C8CD11] px-1.5 py-0.5 text-[#EFEDFA]">music</span>,
+      <i>you make</i> a project that turns the weirdest, most obscure <span class=" bg-[#C8CD11] px-1.5 py-0 text-[#EFEDFA]">input/data</span> into <span class=" bg-[#C8CD11] px-1.5 py-0.5 text-[#EFEDFA]">music</span>,
     </p>
 
     <p class="text-balance mt-5 text-5xl font-helvetica font-bold leading-[110%] tracking-tight text-[#6C8CE8]">
-      <i>we ship</i> you your fave artist's posters, merch, tickets and more prizes worth over <span class=" bg-[#C8CD11] px-1.5 py-0.5 text-[#EFEDFA]">$300</span>.
+      <i>we send</i> you your fave artist's posters, merch, tickets and more prizes worth over <span class=" bg-[#C8CD11] px-1.5 py-0.5 text-[#EFEDFA]">$300</span>.
     </p>
 
     <div class="mt-6 flex flex-wrap items-center gap-4">
@@ -76,7 +76,7 @@
           pulsewidth is a 2 week-long hack club ysws where you turn weird non-musical data into music! <br><br> you can make anything
           from <a href="https://yubidnb.vercel.app" target="_blank" rel="noopener noreferrer">yubikey otps to drum & bass music</a> to
           <a href="https://raphaelbastide.com/cascade/" target="_blank" rel="noopener noreferrer">css styling to a livecoded song</a>
-          to turning someone's tweet into music to turning barcodes to a song and so so many more ideas!<br><br> it could be a website, hardware, something in your cli or anything you can think of!
+          to turning someone's tweet into music to turning barcodes to a song and so so many more ideas!<br><br> your project simply needs to take unusual input that usually isn't musical and turn that into musical output to qualify.<br><br> it could be a website, hardware, something in your cli or anything you can think of!
         </p>
       </section>
 <!--
@@ -257,8 +257,7 @@
   <footer class="border-t-2 border-[#C8CD11] bg-[#EFEDFA] px-5 py-8 md:px-10">
     <p class="mx-auto max-w-6xl text-center font-helvetica text-base leading-[140%] text-[#6C8CE8] md:text-lg">
       made with &lt; 3 and :3 by @<a href="https://github.com/v1peridae" target="_blank" rel="noopener noreferrer" class="text-[#6C8CE8]">v1peridae</a>
-      , brought to you by <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="text-[#6C8CE8]">hack club</a> and <a href="https://teenage.engineering/" 
-      target="_blank" rel="noopener noreferrer" class="text-[#6C8CE8]">teenage.engineering</a>.
+      , brought to you by <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="text-[#6C8CE8]">hack club</a>.
     </p>
   </footer>
 </div>
