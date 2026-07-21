@@ -56,7 +56,7 @@
       <h1 class="font-helvetica text-6xl text-right font-bold italic leading-[90%] tracking-tight text-[#8A84EC] sm:text-7xl md:text-[7rem]">pulsewidth</h1>
       <p class="mt-4 font-bold italic text-right font-helvetica text-2xl leading-[110%] text-[#8F8DC5] md:text-3xl">21 july - 5 aug</p>
       <p class="mt-1 font-bold italic text-right font-helvetica text-lg leading-[110%] text-[#8F8DC5] md:text-xl">
-        a <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="text-[#8F8DC5] no-underline hover:underline">hack club</a> program
+        a <a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="text-[#8F8DC5] no-underline hover:underline">hack club</a> x <a href="https://teenage.engineering" target="_blank" rel="noopener noreferrer" class="text-[#8F8DC5] no-underline hover:underline">teenage engineering</a> program
         </p>
     </div>
   </header>
