@@ -242,7 +242,7 @@
         <div class="mt-12 border-2 border-[#C8CD11] p-4">
           <p class="font-helvetica text-2xl font-bold leading-[100%] text-[#6C8CE8] md:text-3xl">special prize :)</p>
           <p class="mt-3 font-helvetica text-xl leading-[100%] text-[#6C8CE8] md:text-2xl">
-            our friends at teenage engineering have offered the top 2 projects from peer voting with 20+ hours tracked their high end <strong>synthesisers</strong>
+            our friends at teenage engineering have offered the first 2 projects with 20+ hours tracked their high end <strong>synthesisers</strong>
           </p>
           <a href="https://teenage.engineering/store/" target="_blank" rel="noopener noreferrer" class="mt-6 mx-auto block w-[60%] max-w-full no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6C8CE8]/35">
             <img src="/te.png" alt="" class="pointer-events-none h-auto w-full object-contain" />
