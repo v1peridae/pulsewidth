@@ -17,6 +17,8 @@
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"@tailwindcss/vite": "^4.2.2",
 		"@types/node": "^22.19.0",
+		"marked": "^18.0.6",
+		"marked-gfm-heading-id": "^4.1.4",
 		"svelte": "^5.55.2",
 		"svelte-check": "^4.4.6",
 		"tailwindcss": "^4.2.2",
