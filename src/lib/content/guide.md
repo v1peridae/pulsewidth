@@ -22,7 +22,6 @@ this guide walks you through building [yubidnb](https://yubidnb.vercel.app/). it
 - [step 13](#step-13-the-react-ui---srcappjsx) - `src/App.jsx`
 - [step 14](#step-14-booting-the-app---srcmainjsx) - `src/main.jsx`
 - [step 15](#step-15-run-it) - run it
-- [deploying](#deploying)
 
 ---
 
